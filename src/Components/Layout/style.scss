@@ -1,23 +1,87 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: fixed;
-    height: 92px;
-    width: 100%;
-    background-color: transparent;
-    
-    .left-span {
-        color: white;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 34px;
-    }
-
-    .center-div {
+    .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        height: 92px;
+        width: 100%;
+        background-color: transparent;
+        padding: 0px 32px;
+        
+        .left-div{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 100%;
+            .left-span {
+                color: white;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 34px;
+        }
+        }
+
+        .compress-div {
+            display: flex;
+            align-items: center;
+            gap: 75px;
+
+            .center-div {
+                display: flex;
+                align-items: center;
+                gap: 42px;
+                height: 100%;
+
+                .item-center-div {
+                    display: flex;
+                    column-gap: 20px;
+                    
+                    .item-span {
+                        color: white;
+                        font-family: 'DM Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 23px;
+                    }
+                }
+                
+            }
+
+            .right-div {
+                display: flex;
+                align-items: center;
+                column-gap: 24px;
+
+
+                .login-btn {
+                    background-color: #FFE492;
+                    width: 126px;
+                    height: 60px;
+                    color: #043873;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+
+                .try-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;      
+                }
+            }
+        }
     }
-}
