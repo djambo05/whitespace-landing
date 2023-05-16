@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 92px;
+    width: 100%;
+    background-color: transparent;
+    
+    .left-span {
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .center-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

@@ -1,8 +1,4 @@
-import { AppBar } from "./AppBar";
+import "./style.scss";
 export const Main = () => {
-  return (
-    <>
-      <AppBar></AppBar>
-    </>
-  );
+  return <div className="paper"></div>;
 };
