@@ -50,6 +50,9 @@ export const AppBar = () => {
         <div className="right-div">
           <button className="login-btn">Login</button>
           <button className="try-btn">Try Whitespace free</button>
+          <div className="burger-div">
+            <div className="bar"></div>
+          </div>
         </div>
       </div>
     </div>
