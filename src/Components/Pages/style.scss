@@ -1,0 +1,272 @@
+/* Медиазапросы для экрана шириной 1920px и выше */
+.paper-main {
+    background-color: #043873;
+}
+
+  /* Медиазапросы для экрана шириной от 1400px до 1919px */
+  @media (min-width: 1400px) and (max-width: 1920px) {
+    /* Дополнительные стили для AppBar на экранах шириной от 1400px до 1919px */
+    .paper-main {
+        display: flex;
+        height: 748px;
+    
+        .center-info-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 456px;
+            width: 100%;
+            padding: 0px 32px;
+            margin-top: 192px;
+
+            .yours-promotion-div {
+                width: 685px;
+                height: 456px;
+                background-color: #C4DEFD;
+            }
+
+            .get-more-div {
+                display: flex;
+                flex-direction: column;
+                width: 651px;
+                row-gap: 24px;
+
+                .get-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 77px;
+                    letter-spacing: -0.02em;
+                }
+
+                .project-managment-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .try-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+}
+  
+  /* Медиазапросы для экрана шириной от 1152px до 1399px */
+  @media (min-width: 1152px) and (max-width: 1400px) {
+    /* Дополнительные стили для AppBar на экранах шириной от 1152px до 1399px */
+    .paper-main {
+        display: flex;
+        height: 733px;
+    
+        .center-info-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 456px;
+            width: 100%;
+            padding: 0px 32px;
+            margin-top: 192px;
+
+            .yours-promotion-div {
+                width: 526px;
+                height: 350px;
+                background-color: #C4DEFD;
+            }
+
+            .get-more-div {
+                display: flex;
+                flex-direction: column;
+                min-width: 550px;
+                max-width: 562px;
+                row-gap: 24px;
+
+                .get-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 77px;
+                    letter-spacing: -0.02em;
+                }
+
+                .project-managment-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .try-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+}
+  
+  /* Медиазапросы для экрана шириной от 768px до 1151px */
+  @media (min-width: 768px) and (max-width: 1152px) {
+    /* Дополнительные стили для AppBar на экранах шириной от 768px до 1151px */
+    .paper-main {
+        display: flex;
+        height: 1117px;
+    
+        .center-info-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            row-gap: 100px;
+            padding: 0px 20px;
+            margin-top: 206px;
+
+            .yours-promotion-div {
+                width: 551px;
+                height: 367px;
+                background-color: #C4DEFD;
+            }
+
+            .get-more-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 24px;
+                width: 728px;
+                row-gap: 24px;
+                text-align: center;
+
+                .get-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 77px;
+                    letter-spacing: -0.02em;
+                }
+
+                .project-managment-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .try-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+}
+  
+  /* Медиазапросы для экрана шириной 320px до 767px */
+  @media (min-width: 320px) and (max-width: 768px) {
+    /* Дополнительные стили для AppBar на экранах шириной от 320px до 767px */
+    .paper-main {
+        display: flex;
+        height: 869px;
+    
+        .center-info-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            row-gap: 100px;
+            padding: 0px 16px;
+            margin-top: 136px;
+
+            .yours-promotion-div {
+                width: 286px;
+                height: 191px;
+                background-color: #C4DEFD;
+            }
+
+            .get-more-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 24px;
+                width: 288px;
+                row-gap: 24px;
+                text-align: center;
+
+                .get-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    text-align: center;
+                    letter-spacing: -0.02em;
+                }
+
+                .project-managment-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .try-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+}
