@@ -1,5 +1,7 @@
+.container {
+    background-color: rgb(54, 59, 192);
+}
 @media (min-width: 1400px) and (max-width: 1920px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 1400px до 1919px */
     .container {
         display: flex;
         align-items: center;
@@ -7,7 +9,6 @@
         position: fixed;
         height: 92px;
         width: 100%;
-        background-color: transparent;
         padding: 0px 32px;
         
         .left-div{
@@ -93,9 +94,7 @@
     }
 }
   
-  /* Медиазапросы для экрана шириной от 1152px до 1399px */
   @media (min-width: 1152px) and (max-width: 1400px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 1152px до 1399px */
     .container {
         display: flex;
         align-items: center;
@@ -103,7 +102,6 @@
         position: fixed;
         height: 92px;
         width: 100%;
-        background-color: transparent;
         padding: 0px 32px;
         
         .left-div{
@@ -220,9 +218,7 @@
 }
 
   
-  /* Медиазапросы для экрана шириной от 768px до 1151px */
   @media (min-width: 768px) and (max-width: 1152px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 768px до 1151px */
     .container {
         display: flex;
         align-items: center;
@@ -230,7 +226,6 @@
         position: fixed;
         height: 66px;
         width: 100%;
-        background-color: transparent;
         padding: 0px 32px;
         
         .left-div{
@@ -326,10 +321,7 @@
     
 }
   
-  /* Медиазапросы для экрана шириной 320px до 767px */
   @media (min-width: 320px) and (max-width: 768px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 320px до 767px */
-
     .container {
         display: flex;
         align-items: center;
@@ -337,7 +329,6 @@
         position: fixed;
         height: 56px;
         width: 100%;
-        background-color: transparent;
         padding: 0px 16px;
         
         .left-div{
