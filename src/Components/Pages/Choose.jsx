@@ -50,30 +50,36 @@ export const Choose = () => {
     <div className="paper-choose">
       <div className="center-info-div">
         <div className="choose-div">
-          <span className="choose-span">Project Managment</span>
+          <span className="choose-span">Choose Your Plan</span>
           <span className="text-span">
-            Images, videos, PDFs and audio files are supported. Create math
-            expressions and diagrams directly from the app. Take photos with the
-            mobile app and save them to a note.
+            Whether you want to get organized, keep your personal life on track,
+            or boost workplace productivity, Evernote has the right plan for
+            you.
           </span>
         </div>
         <div className="cards-div">
-          {cardData.map((obj) => {
+          {cardData.map((obj, ind) => {
             return (
-              <div key={obj.id}>
-                <span></span>
-                <span></span>
-                <span>{obj.text[0]}</span>
-                {(() => {
-                  for (let i = 1; i < 6; i++) {
-                    return (
-                      <div>
-                        <img src={`./img/${obj.img}`} alt="checks" />{" "}
-                        <span>{obj.text[i]}</span>
-                      </div>
-                    );
-                  }
-                })()}
+              <div
+                className={ind % 2 === 0 ? "card-white" : "card-blue"}
+                key={obj.id}
+              >
+                <span className="title-span">{obj.title}</span>
+                <span className="price-span">{obj.price}</span>
+                <span className="info-span">{obj.text[0]}</span>
+                {obj.text.slice(1).map((el, index) => {
+                  return (
+                    <div className="benefit-div" key={index}>
+                      <img
+                        className="benefit-img"
+                        src={`./img/${obj.img}`}
+                        alt="checks"
+                      />
+                      <span className="benefit-span">{el}</span>
+                    </div>
+                  );
+                })}
+                <button className="get-started-btn">Get Started</button>
               </div>
             );
           })}
