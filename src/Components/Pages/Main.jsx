@@ -7,7 +7,7 @@ export const Main = () => {
           <span className="get-span">Get More Done with whitespace</span>
           <span className="project-managment-span">
             Project managment software that enables your tems to collaborate,
-            plan, analyze and manage everyday tasks
+            plan, analyze and manage everyday task
           </span>
           <button className="try-btn">Try Whitespace free</button>
         </div>

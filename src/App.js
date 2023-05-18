@@ -4,13 +4,11 @@ import { Project } from "./Components/Pages/Project";
 import { Layout } from "./Components/Layout/Layout";
 function App() {
   return (
-    <HashRouter>
+    <>
       <Layout />
-      <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route path="/temp" element={<Project />} />
-      </Routes>
-    </HashRouter>
+      <Main />
+      <Project />
+    </>
   );
 }
 

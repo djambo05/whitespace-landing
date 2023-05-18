@@ -1,11 +1,13 @@
-/* Медиазапросы для экрана шириной 1920px и выше */
+
 .paper-main {
     background-color: #043873;
 }
+.paper-project {
+    background-color: #FFFFFF;
+}
 
-  /* Медиазапросы для экрана шириной от 1400px до 1919px */
+
   @media (min-width: 1400px) and (max-width: 1920px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 1400px до 1919px */
     .paper-main {
         display: flex;
         height: 748px;
@@ -61,6 +63,68 @@
                     font-weight: 500;
                     font-size: 18px;
                     line-height: 23px;
+                    letter-spacing: -0.02em;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-project {
+        display: flex;
+        height: 728px;
+
+        .center-info-div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 140px;
+            padding: 0px 32px;
+
+            .yours-promotion-div {
+                background-color: #C4DEFD;
+                width: 719px;
+                height: 448px;
+            }
+
+            .project-div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 24px;
+                width: 617px;
+
+                .project-span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 72px;
+                    line-height: 87px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+
+                .text-span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+                
+                .get-started-btn {
+                    background-color: #4F9CF9;
+                    width: 201px;
+                    height: 63px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    letter-spacing: -0.02em;
                     margin-top: 36px;
                 }
             }
@@ -68,9 +132,7 @@
     }
 }
   
-  /* Медиазапросы для экрана шириной от 1152px до 1399px */
   @media (min-width: 1152px) and (max-width: 1400px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 1152px до 1399px */
     .paper-main {
         display: flex;
         height: 733px;
@@ -127,16 +189,77 @@
                     font-weight: 500;
                     font-size: 18px;
                     line-height: 23px;
+                    letter-spacing: -0.02em;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-project {
+        display: flex;
+        height: 728px;
+
+        .center-info-div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 140px;
+            padding: 0px 32px;
+
+            .yours-promotion-div {
+                background-color: #C4DEFD;
+                width: 527px;
+                height: 328px;
+            }
+
+            .project-div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 24px;
+                width: 436px;
+
+                .project-span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 77px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+
+                .text-span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+                
+                .get-started-btn {
+                    background-color: #4F9CF9;
+                    width: 201px;
+                    height: 63px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
+                    letter-spacing: -0.02em;
                     margin-top: 36px;
                 }
             }
         }
     }
 }
-  
-  /* Медиазапросы для экрана шириной от 768px до 1151px */
+
+
   @media (min-width: 768px) and (max-width: 1152px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 768px до 1151px */
     .paper-main {
         display: flex;
         height: 1117px;
@@ -161,7 +284,7 @@
                 flex-direction: column;
                 align-items: center;
                 row-gap: 24px;
-                width: 728px;
+                width: auto;
                 row-gap: 24px;
                 text-align: center;
 
@@ -169,8 +292,8 @@
                     color: #FFFFFF;
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 64px;
-                    line-height: 77px;
+                    font-size: 54px;
+                    line-height: 65px;
                     letter-spacing: -0.02em;
                 }
 
@@ -192,9 +315,74 @@
                     border: none;
                     padding: 0;
                     font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-project {
+        display: flex;
+        height: 907px;
+
+        .center-info-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 60px;
+            width: 100%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding: 0px 20px;
+
+            .yours-promotion-div {
+                background-color: #C4DEFD;
+                width: 561px;
+                height: 349px;
+            }
+
+            .project-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                row-gap: 24px;
+                width: auto;
+
+                .project-span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 54px;
+                    line-height: 65px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+
+                .text-span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+                
+                .get-started-btn {
+                    background-color: #4F9CF9;
+                    width: 201px;
+                    height: 63px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
                     font-weight: 500;
                     font-size: 18px;
                     line-height: 23px;
+                    letter-spacing: -0.02em;
                     margin-top: 36px;
                 }
             }
@@ -202,9 +390,7 @@
     }
 }
   
-  /* Медиазапросы для экрана шириной 320px до 767px */
   @media (min-width: 320px) and (max-width: 768px) {
-    /* Дополнительные стили для AppBar на экранах шириной от 320px до 767px */
     .paper-main {
         display: flex;
         height: 869px;
@@ -229,7 +415,7 @@
                 flex-direction: column;
                 align-items: center;
                 row-gap: 24px;
-                width: 288px;
+                width: auto;
                 row-gap: 24px;
                 text-align: center;
 
@@ -261,9 +447,74 @@
                     border: none;
                     padding: 0;
                     font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-project {
+        display: flex;
+        height: 819px;
+
+        .center-info-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 60px;
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding: 0px 16px;
+
+            .yours-promotion-div {
+                background-color: #C4DEFD;
+                width: 288px;
+                height: 177px;
+            }
+
+            .project-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                row-gap: 24px;
+                width: auto;
+
+                .project-span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+
+                .text-span {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                    color: #212529;
+                }
+                
+                .get-started-btn {
+                    background-color: #4F9CF9;
+                    width: 201px;
+                    height: 63px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-style: normal;
                     font-weight: 500;
                     font-size: 18px;
                     line-height: 23px;
+                    letter-spacing: -0.02em;
                     margin-top: 36px;
                 }
             }
