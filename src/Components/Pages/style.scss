@@ -6,6 +6,10 @@
     background-color: #FFFFFF;
 }
 
+.paper-use {
+    background-color: #043873;
+}
+
 
   @media (min-width: 1400px) and (max-width: 1920px) {
     .paper-main {
@@ -125,6 +129,69 @@
                     font-size: 18px;
                     line-height: 23px;
                     letter-spacing: -0.02em;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-use {
+        display: flex;
+        height: 759px;
+    
+        .center-info-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 479px;
+            width: 100%;
+            padding: 0px 32px;
+            margin-top: 140px;
+            margin-bottom: 140px;
+
+            .yours-promotion-div {
+                width: 686px;
+                height: 479px;
+                background-color: #C4DEFD;
+            }
+
+            .use-div {
+                display: flex;
+                flex-direction: column;
+                width: 552px;
+                row-gap: 24px;
+
+                .use-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 72px;
+                    line-height: 87px;
+                    letter-spacing: -0.02em;
+                }
+
+                .text-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .lets-go-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-family: 'Montserrat',  sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
                     margin-top: 36px;
                 }
             }
@@ -251,6 +318,68 @@
                     font-size: 18px;
                     line-height: 23px;
                     letter-spacing: -0.02em;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-use {
+        display: flex;
+        height: 600px;
+    
+        .center-info-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0px 32px;
+            margin-top: 140px;
+            margin-bottom: 140px;
+
+            .yours-promotion-div {
+                width: 459px;
+                height: 320px;
+                background-color: #C4DEFD;
+            }
+
+            .use-div {
+                display: flex;
+                flex-direction: column;
+                width: 528px;
+                row-gap: 24px;
+
+                .use-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 77px;
+                    letter-spacing: -0.02em;
+                }
+
+                .text-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .lets-go-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-family: 'Montserrat',  sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 23px;
                     margin-top: 36px;
                 }
             }
@@ -388,6 +517,72 @@
             }
         }
     }
+
+    .paper-use {
+        display: flex;
+        height: 917px;
+    
+        .center-info-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 0px 32px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+
+            .yours-promotion-div {
+                width: 557px;
+                height: 389px;
+                background-color: #C4DEFD;
+            }
+
+            .use-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: auto;
+                row-gap: 24px;
+                margin-bottom: 80px;
+
+                .use-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 54px;
+                    line-height: 65px;
+                    letter-spacing: -0.02em;
+                }
+
+                .text-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .lets-go-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-family: 'Montserrat',  sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: -0.02em;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
 }
   
   @media (min-width: 320px) and (max-width: 768px) {
@@ -514,6 +709,72 @@
                     font-weight: 500;
                     font-size: 18px;
                     line-height: 23px;
+                    letter-spacing: -0.02em;
+                    margin-top: 36px;
+                }
+            }
+        }
+    }
+
+    .paper-use {
+        display: flex;
+        height: 810px;
+    
+        .center-info-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 0px 16px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+
+            .yours-promotion-div {
+                width: 285px;
+                height: 198px;
+                background-color: #C4DEFD;
+            }
+
+            .use-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: auto;
+                row-gap: 24px;
+                margin-bottom: 60px;
+
+                .use-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    letter-spacing: -0.02em;
+                }
+
+                .text-span {
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    letter-spacing: -0.02em;
+                }
+
+                .lets-go-btn {
+                    background-color: #4F9CF9;
+                    width: 227px;
+                    height: 60px;
+                    color: #FFFFFF;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 0;
+                    font-family: 'Montserrat',  sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
                     letter-spacing: -0.02em;
                     margin-top: 36px;
                 }
