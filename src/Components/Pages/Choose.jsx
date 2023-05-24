@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { useSwipeable } from "react-swipeable";
+
 export const Choose = () => {
   const cardData = [
     {
@@ -46,6 +49,23 @@ export const Choose = () => {
       ],
     },
   ];
+  const [currentId, setCurrentId] = useState(2);
+
+  const handler = useSwipeable({
+    onSwipedLeft: () => handleSwipe("left"),
+    onSwipedRight: () => handleSwipe("right"),
+  });
+  const handleSwipe = (direction) => {
+    switch (direction) {
+      case "left":
+        return setCurrentId((prev) => Math.min(prev + 1, cardData.length));
+      case "right":
+        return setCurrentId((prev) => Math.max(prev - 1, 1));
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="paper-choose">
       <div className="center-info-div">
@@ -57,11 +77,11 @@ export const Choose = () => {
             you.
           </span>
         </div>
-        <div className="cards-div">
-          {cardData.map((obj, ind) => {
+        <div className="cards-div" {...handler}>
+          {cardData.map((obj) => {
             return (
               <div
-                className={ind % 2 === 0 ? "card-white" : "card-blue"}
+                className={obj.id === currentId ? "card-blue" : "card-white"}
                 key={obj.id}
               >
                 <span className="title-span">{obj.title}</span>
