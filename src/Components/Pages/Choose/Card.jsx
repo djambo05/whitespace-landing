@@ -9,6 +9,9 @@ export const Card = ({ id, title, price, text, img, currentId }) => {
           currentId !== 2 && indicator
             ? `translateX(${(indicator * window.innerWidth * 2) / 5}px)`
             : ``,
+        transitionProperty: "transform",
+        transitionTimingFunction: "ease-in-out",
+        transitionDuration: "2s",
       }}
     >
       <span className="title-span">{title}</span>
