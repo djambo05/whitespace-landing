@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSwipeable } from "react-swipeable";
+import { Card } from "./Card";
 
 export const Choose = () => {
   const cardData = [
@@ -65,7 +66,6 @@ export const Choose = () => {
         return null;
     }
   };
-
   return (
     <div className="paper-choose">
       <div className="center-info-div">
@@ -78,31 +78,9 @@ export const Choose = () => {
           </span>
         </div>
         <div className="cards-div" {...handler}>
-          {cardData.map((obj) => {
-            return (
-              <div
-                className={obj.id === currentId ? "card-blue" : "card-white"}
-                key={obj.id}
-              >
-                <span className="title-span">{obj.title}</span>
-                <span className="price-span">{obj.price}</span>
-                <span className="info-span">{obj.text[0]}</span>
-                {obj.text.slice(1).map((el, index) => {
-                  return (
-                    <div className="benefit-div" key={index}>
-                      <img
-                        className="benefit-img"
-                        src={`./img/${obj.img}`}
-                        alt="checks"
-                      />
-                      <span className="benefit-span">{el}</span>
-                    </div>
-                  );
-                })}
-                <button className="get-started-btn">Get Started</button>
-              </div>
-            );
-          })}
+          {cardData.map((obj) => (
+            <Card key={obj.id} {...obj} currentId={currentId} />
+          ))}
         </div>
       </div>
     </div>

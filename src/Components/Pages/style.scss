@@ -1022,9 +1022,11 @@
                 }
             }
 
+            
             .cards-div {
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 column-gap: 32px;
                 width: 100vw;
                 height: 730px;
